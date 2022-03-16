@@ -12,7 +12,7 @@ Moonlight-NX is a port of [Moonlight Game Streaming Project](https://github.com/
 
 # Controls
 ## Mouse
-With touch screen you can configure two mouse input mode: 
+With touch screen you can configure two mouse input mode:
 - Moving the cursor along the movement your finger (by default);
 - Immediately move cursor by tap area and perform left mouse click (enable `Mouse click by tap on screen` option in Settings).
 
@@ -44,7 +44,7 @@ Moonlight-NX support attached hardware keyboard/mouse over USB connected to Swit
 
 # Build Moonlight-NX
 ## Using Docker
-1. Create a working dir: 
+1. Create a working dir:
 
 `mkdir moonlight-nx-build; cd moonlight-nx-build`
 
@@ -52,14 +52,14 @@ Moonlight-NX support attached hardware keyboard/mouse over USB connected to Swit
 
 `wget https://raw.githubusercontent.com/rock88/moonlight-nx/master/Dockerfile`
 
-3. Build and run a development environment: 
+3. Build and run a development environment:
 
 ```
 docker build . -t moonlight-nx-build
 docker run -it moonlight-nx-build
 ```
 
-4. Clone the repo: 
+4. Clone the repo:
 
 `git clone --recursive https://github.com/rock88/moonlight-nx.git`
 
@@ -67,7 +67,7 @@ docker run -it moonlight-nx-build
 
 `cd moonlight-nx; make; exit`
 
-6. Copy the .nro out of the container: 
+6. Copy the .nro out of the container:
 ```
 // Find your container ID
 docker ps -a
@@ -85,7 +85,7 @@ sudo (dkp-)pacman --noconfirm -S devkitA64 switch-tools libnx switch-ffmpeg swit
 sudo (dkp-)pacman --noconfirm -Suy
 ```
 
-3. Clone the repo: 
+3. Clone the repo:
 
 `git clone --recursive https://github.com/rock88/moonlight-nx.git`
 
@@ -95,3 +95,5 @@ sudo (dkp-)pacman --noconfirm -Suy
 
 # Assets
 Icon - [moonlight-stream](https://github.com/moonlight-stream "moonlight-stream") project logo.
+
+#Rune
